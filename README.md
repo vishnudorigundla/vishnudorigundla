@@ -9,7 +9,7 @@
 ---
 
 ## 🔥 About Me  
-- 🎓 Pursuing **B.Tech in Data Science** (Saveetha Engineering College, GPA: 8.66)  
+- 🎓 Completed **B.Tech in Data Science** (Saveetha Engineering College, GPA: 8.66)  
 - 🧠 Currently working on **Generative AI Projects** (LLMs, Prompt Engineering, and AI Assistants)  
 - 💡 Interested in **AI Applications, Data Analytics, and Cloud Deployments**  
 - 📊 Proficient in **Python, SQL, Machine Learning, NLP, and Power BI**  
