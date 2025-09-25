@@ -85,21 +85,29 @@
 - Enhanced accessibility for long-form content  
 🔗 [Project Link](#)  
 
----
+
+### Blinkit app dashboard
+
+- Developed a real-time Power BI dashboard for Blinkit to analyze sales, customer satisfaction, and outlet performance.
+- Designed 7+ interactive visuals including sales by item type, outlet size, and location to uncover trends.
+- Built KPIs like Total Sales, Average Sales, Number of Items, and Customer Ratings using DAX.
+- Performed data cleaning, modeling, and quality checks to ensure accuracy and reliability.
+- Delivered actionable insights that support data-driven decision-making and business optimization.
+  
+🔗 https://github.com/vishnudorigundla/blinkit-power-bi-dashboard 
 
 ## 📜 Certifications  
 - 🎓 IBM Data Science Professional Certificate (Coursera)  
 - 🎓 Microsoft AI Skills Certification  
 - 🎓 HCL Tech Training Certification  
 
----
 
 ## 🏆 Achievements  
 - ✅ Solved **100+ DSA problems on LeetCode**  
 - ✅ Solved **50+ SQL challenges on HackerRank**  
 - 🎖️ Eligible for **National Scholarship Portal (NSP) Scholarship** based on academic merit  
 
----
+
 
 ## 📫 Connect with Me  
 
