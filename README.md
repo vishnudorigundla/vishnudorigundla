@@ -65,26 +65,22 @@
 - AI-driven appointment scheduling system integrating **patient data** & **doctor availability**  
 - Automated workflows using **Calendly API**  
 - Enhanced efficiency with **CSV data handling & patient recognition**  
-🔗 [Project Link](#)  
-
+https://github.com/vishnudorigundla/AI-clinic-scheduler
 ### 🌍 AI Travel Planner  
 - Personalized **itinerary generator** using ML & recommendation algorithms  
 - Automated **flights, hotels, and activities** suggestions  
 - Implemented **cost & time optimization**  
-🔗 [Project Link](#)  
-
+https://github.com/vishnudorigundla/AI-Travel-Planner
 ### 📧 AI Email Assistant  
 - **NLP-powered** assistant for drafting, replying, and summarizing emails  
 - Priority classification & **context-aware response generation**  
 - Reduced effort with **intelligent summarization**  
-🔗 [Project Link](#)  
-
+https://github.com/vishnudorigundla/-AI-Email-Reply-Assistant
 ### 🎥 AI YouTube Video Summarizer  
 - Summarized videos using **speech-to-text** & NLP  
 - Extracted **key highlights & timestamps**  
 - Enhanced accessibility for long-form content  
-🔗 [Project Link](#)  
-
+https://github.com/vishnudorigundla/Youtube-video-summary-Generator
 
 ### Blinkit app dashboard
 
