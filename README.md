@@ -17,6 +17,50 @@
 
 ---
 
+## 👨‍💻 Experience
+### Graduate Engineer Trainee
+
+### HCLTech | Oct 2025 – Present
+📍 Chennai, India
+
+### Power BI Analyst
+
+- Built interactive dashboards and reports using Power BI to support data-driven decisions.
+
+- Connected, transformed, and modeled data from multiple sources for analytics and reporting.
+
+- Worked with data engineers and stakeholders to define KPIs and visualization requirements.
+
+### Business Analyst
+
+- Collected and documented business requirements for Power Platform solutions.
+
+- Translated business needs into technical specifications in collaboration with developers.
+
+- Performed testing and validation to ensure solutions met business expectations.
+
+### Power Automate Specialist
+
+- Designed and implemented automated workflows using Power Automate.
+
+- Integrated workflows with multiple applications to enable end-to-end process automation.
+
+- Optimized and troubleshot workflows to improve efficiency and reliability.
+
+### Tech Stack: Microsoft Azure Fabric,Data bricks,Power BI , Power Automate , Python , SQL , Data Modeling , Business Analysis
+
+## Data Analyst Intern
+
+### Accenture | Jun 2024 – Aug 2024
+
+- Gained hands-on experience in data analysis and visualization using Jupyter Lab, Google Colab, VS Code, and GitHub.
+
+- Assisted in project scoping and requirement analysis for technical solutions.
+
+- Improved collaboration, communication, and team coordination while solving project challenges.
+### 🔧 Tools & Skills
+
+#### Power BI, Power Automate ,Python, SQL ,Pandas ,Excel ,Git ,VS Code
 ## 🛠️ Tech Stack  
 
  
