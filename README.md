@@ -139,7 +139,9 @@ https://github.com/vishnudorigundla/Youtube-video-summary-Generator
 ## 📜 Certifications  
 - 🎓 IBM Data Science Professional Certificate (Coursera)  
 - 🎓 Microsoft AI Skills Certification  
-- 🎓 HCL Tech Training Certification  
+- 🎓 HCL Tech Training Certification
+-  <img width="738" height="82" alt="image" src="https://github.com/user-attachments/assets/08a22a92-5643-4590-87a9-4d43917dbb31" />
+
 
 
 ## 🏆 Achievements  
