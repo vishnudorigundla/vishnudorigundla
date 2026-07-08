@@ -2,9 +2,9 @@
 
 # 👋 Hi, I'm Vishnu Dorigundla  
 
-🎯 **Aspiring Data Scientist | AI/ML Enthusiast | Gen AI Explorer**  
+🎯 **Data Scientist | AI/ML Enthusiast | Gen AI Explorer**  
 
-🚀 Passionate about building **AI-driven solutions** to solve real-world problems. Skilled in **Python, Machine Learning, NLP, and Data Visualization**, with hands-on experience in predictive modeling, recommendation systems, and generative AI applications.  
+🚀 Passionate about building **AI-driven solutions** to solve real-world problems. Skilled in **Python, Machine Learning, NLP, and Data Visualization,azure cloud,Gen ai,Fabric analytics & data engineering.**, with hands-on experience in predictive modeling, recommendation systems, and generative AI applications.  
 
 ---
 
