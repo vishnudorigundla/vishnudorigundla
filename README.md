@@ -2,9 +2,11 @@
 
 **Data Engineer | Azure · Microsoft Fabric · Databricks · AWS · Power BI | Applied GenAI and ML**
 
-I build cloud data pipelines, the reports on top of them, and small ML and GenAI applications. I work at HCLTech in Chennai as a Graduate Engineer Trainee (Power BI, Power Platform, Fabric, Databricks). I have a B.Tech in Data Science (Saveetha Engineering College, GPA 8.66).
+Data and analytics professional with hands-on experience designing cloud data pipelines on Azure and Microsoft Fabric, building Power BI reporting solutions, and developing ML and GenAI applications.
 
-I am looking for data engineering roles on Azure, Microsoft Fabric and AWS.
+Analyst at HCLTech, Chennai, delivering Power BI dashboards, Power Platform solutions and Power Automate workflows, with exposure to Microsoft Fabric and Databricks.
+
+Seeking data engineering roles focused on Azure, Microsoft Fabric and AWS.
 
 ---
 
