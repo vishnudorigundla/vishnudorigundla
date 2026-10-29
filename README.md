@@ -2,7 +2,7 @@
 
 **Data Engineer | Azure · Microsoft Fabric · Databricks · AWS · Power BI | Applied GenAI and ML**
 
-Data and analytics professional with hands-on experience designing cloud data pipelines on Azure and Microsoft Fabric, building Power BI reporting solutions, and developing ML and GenAI applications.
+Data and analytics professional with hands-on experience designing cloud data pipelines on Azure and Microsoft Fabric, Databricks,building Power BI reporting solutions, and developing ML and GenAI applications.
 
 Analyst at HCLTech, Chennai, delivering Power BI dashboards, Power Platform solutions and Power Automate workflows, with exposure to Microsoft Fabric and Databricks.
 
