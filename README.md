@@ -1,164 +1,77 @@
+# Hi, I'm Vishnu Dorigundla
 
+**Data Engineer | Azure · Microsoft Fabric · Databricks · AWS · Power BI | Applied GenAI and ML**
 
-# 👋 Hi, I'm Vishnu Dorigundla  
+I build cloud data pipelines, the reports on top of them, and small ML and GenAI applications. I work at HCLTech in Chennai as a Graduate Engineer Trainee (Power BI, Power Platform, Fabric, Databricks). I have a B.Tech in Data Science (Saveetha Engineering College, GPA 8.66).
 
-🎯 **Data Scientist | AI/ML Enthusiast | Gen AI Explorer**  
-
-🚀 Passionate about building **AI-driven solutions** to solve real-world problems. Skilled in **Python, Machine Learning, NLP, and Data Visualization,azure cloud,Gen ai,Fabric analytics & data engineering.**, with hands-on experience in predictive modeling, recommendation systems, and generative AI applications.  
-
----
-
-## 🔥 About Me  
-- 🎓 Completed **B.Tech in Data Science** (Saveetha Engineering College, GPA: 8.66)  
-- 🧠 Currently working on **Generative AI Projects** (LLMs, Prompt Engineering, and AI Assistants)  
-- 💡 Interested in **AI Applications, Data Analytics, and Cloud Deployments**  
-- 📊 Proficient in **Python, SQL, Machine Learning, NLP, and Power BI**  
-- 🌍 Open to internships, research collaborations, and AI-focused opportunities  
+I am looking for data engineering roles on Azure, Microsoft Fabric and AWS.
 
 ---
 
-## 👨‍💻 Experience
-### Graduate Engineer Trainee
+## Featured projects
 
-### HCLTech | Oct 2025 – Present
-📍 Chennai, India
+### 1. Spotify medallion pipeline on Azure
+**Azure SQL → Azure Data Factory → ADLS Gen2 → Databricks (PySpark, declarative pipelines)**
+- ADF pipelines load data incrementally using a change-date column and a lookup of the last load, and loop over a list of tables with a ForEach. A web activity is wired in for alerts.
+- Databricks builds silver dimensions in a notebook and gold tables (`DimDate`, `DimTrack`, `DimUser`, `FactStream`) as declarative pipeline tables with data-quality expectations.
+- The Databricks side is deployed as an Asset Bundle (`databricks.yml`).
+- Repo: [azureproject](https://github.com/vishnudorigundla/azureproject)
 
-### Power BI Analyst
+### 2. Microsoft Fabric lakehouse for an LMS portal
+**Raw → Landing → Bronze → Silver → Gold, orchestrated in a Fabric pipeline**
+- Four Fabric notebooks (raw to landing, landing to bronze, silver, gold) chained in one end-to-end pipeline with a dynamic run-date parameter.
+- The bronze, silver and gold notebooks use `MERGE` upserts so re-delivered records update instead of duplicating.
+- Power BI report on the gold layer (`LMS_report.pbix`).
+- Repo: [Fabric-end-to-end-project-for-LMS-portal](https://github.com/vishnudorigundla/Fabric-end-to-end-project-for-LMS-portal)
 
-- Built interactive dashboards and reports using Power BI to support data-driven decisions.
+### 3. Blinkit sales dashboard in Power BI
+- KPI cards (total sales, average sales, number of items, average rating) built with DAX, plus charts by item type, fat content, outlet size, outlet age and location.
+- Repo: [blinkit-power-bi-dashboard](https://github.com/vishnudorigundla/blinkit-power-bi-dashboard)
 
-- Connected, transformed, and modeled data from multiple sources for analytics and reporting.
-
-- Worked with data engineers and stakeholders to define KPIs and visualization requirements.
-
-### Business Analyst
-
-- Collected and documented business requirements for Power Platform solutions.
-
-- Translated business needs into technical specifications in collaboration with developers.
-
-- Performed testing and validation to ensure solutions met business expectations.
-
-### Power Automate Specialist
-
-- Designed and implemented automated workflows using Power Automate.
-
-- Integrated workflows with multiple applications to enable end-to-end process automation.
-
-- Optimized and troubleshot workflows to improve efficiency and reliability.
-
-### Tech Stack: Microsoft Azure Fabric,Data bricks,Power BI , Power Automate , Python , SQL , Data Modeling , Business Analysis
-
-## Data Analyst Intern
-
-### Accenture | Jun 2024 – Aug 2024
-
-- Gained hands-on experience in data analysis and visualization using Jupyter Lab, Google Colab, VS Code, and GitHub.
-
-- Assisted in project scoping and requirement analysis for technical solutions.
-
-- Improved collaboration, communication, and team coordination while solving project challenges.
-### 🔧 Tools & Skills
-
-#### Power BI, Power Automate ,Python, SQL ,Pandas ,Excel ,Git ,VS Code
-## 🛠️ Tech Stack  
-
- 
-
-**💻 Programming & Databases:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)  
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)  
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)  
-
-**📊 Data Science & Analytics:**  
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)  
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)  
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=plotly&logoColor=white)  
-![Seaborn](https://img.shields.io/badge/Seaborn-005C5C?style=for-the-badge&logo=python&logoColor=white)  
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)  
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)  
-
-**🤖 Machine Learning & Deep Learning:**  
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)  
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)  
-![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)  
-
-**✨ Generative AI & NLP:**  
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)  
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white)  
-![Hugging Face](https://img.shields.io/badge/HuggingFace-FCC624?style=for-the-badge&logo=huggingface&logoColor=black)  
-![LLMs](https://img.shields.io/badge/LLMs-000000?style=for-the-badge&logo=databricks&logoColor=white)  
-![NLP](https://img.shields.io/badge/NLP-FF4088?style=for-the-badge&logo=apacheairflow&logoColor=white)  
-
-**☁️ Cloud & Tools:**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)  
-![Google Colab](https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=black)  
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)  
-![VS Code](https://img.shields.io/badge/VSCode-0078d7?style=for-the-badge&logo=visualstudiocode&logoColor=white)  
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)  
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)  
- 
+### 4. GenAI apps (Streamlit)
+- **AI Email Reply Assistant:** drafts replies in English or Telugu with Gemini. [repo](https://github.com/vishnudorigundla/-AI-Email-Reply-Assistant)
+- **YouTube Video Summarizer:** pulls a video transcript and summarizes it with Gemini. [repo](https://github.com/vishnudorigundla/Youtube-video-summary-Generator)
+- **AI Travel Planner:** itinerary drafts from Perplexity through LangChain, with Google Places links and WhatsApp delivery. [repo](https://github.com/vishnudorigundla/AI-Travel-Planner)
 
 ---
 
-## 🚀 Featured Projects  
+## Skills
 
-### 🏥 AI Clinic Scheduler  
-- AI-driven appointment scheduling system integrating **patient data** & **doctor availability**  
-- Automated workflows using **Calendly API**  
-- Enhanced efficiency with **CSV data handling & patient recognition**  
-https://github.com/vishnudorigundla/AI-clinic-scheduler
-### 🌍 AI Travel Planner  
-- Personalized **itinerary generator** using ML & recommendation algorithms  
-- Automated **flights, hotels, and activities** suggestions  
-- Implemented **cost & time optimization**  
-https://github.com/vishnudorigundla/AI-Travel-Planner
-### 📧 AI Email Assistant  
-- **NLP-powered** assistant for drafting, replying, and summarizing emails  
-- Priority classification & **context-aware response generation**  
-- Reduced effort with **intelligent summarization**  
-https://github.com/vishnudorigundla/-AI-Email-Reply-Assistant
-### 🎥 AI YouTube Video Summarizer  
-- Summarized videos using **speech-to-text** & NLP  
-- Extracted **key highlights & timestamps**  
-- Enhanced accessibility for long-form content  
-https://github.com/vishnudorigundla/Youtube-video-summary-Generator
+| Area | What I use |
+|---|---|
+| Azure data platform | Azure Data Factory, ADLS Gen2, Azure SQL Database, Microsoft Fabric (lakehouse, pipelines, notebooks), Azure Databricks |
+| Data engineering | PySpark, Spark SQL, Delta Lake, medallion architecture, incremental loads, `MERGE` upserts, data-quality checks, pipeline orchestration and parameterization |
+| BI and automation | Power BI (DAX, Power Query, semantic models), Power Automate, requirements gathering |
+| Machine learning | Python, pandas, NumPy, scikit-learn, TensorFlow, Keras, PyTorch |
+| GenAI | Gemini API, LangChain, prompt design, Streamlit apps |
+| Databases and languages | SQL, Python |
+| Engineering tools | Git and GitHub, VS Code, Jupyter, Databricks Asset Bundles |
 
-### Blinkit app dashboard
-
-- Developed a real-time Power BI dashboard for Blinkit to analyze sales, customer satisfaction, and outlet performance.
-- Designed 7+ interactive visuals including sales by item type, outlet size, and location to uncover trends.
-- Built KPIs like Total Sales, Average Sales, Number of Items, and Customer Ratings using DAX.
-- Performed data cleaning, modeling, and quality checks to ensure accuracy and reliability.
-- Delivered actionable insights that support data-driven decision-making and business optimization.
-  
-🔗 https://github.com/vishnudorigundla/blinkit-power-bi-dashboard 
-
-## 📜 Certifications  
-- 🎓 IBM Data Science Professional Certificate (Coursera)  
-- 🎓 Microsoft AI Skills Certification  
-- 🎓 HCL Tech Training Certification
--  <img width="738" height="82" alt="image" src="https://github.com/user-attachments/assets/08a22a92-5643-4590-87a9-4d43917dbb31" />
-
-
-
-## 🏆 Achievements  
-- ✅ Solved **100+ DSA problems on LeetCode**  
-- ✅ Solved **50+ SQL challenges on HackerRank**  
-- 🎖️ Eligible for **National Scholarship Portal (NSP) Scholarship** based on academic merit  
-
-
-
-## 📫 Connect with Me  
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)  
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-github)  
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)  
-📧 **Email:** vishnudorigundla453@gmail.com | 📱 **+91 77807 64108**  
+### Learning on AWS
+Building the same patterns on AWS, with a focus on data engineering and ML:
+- **Data engineering:** S3 (data lake), AWS Glue (ETL and catalog), Athena, Redshift, Lambda, Step Functions
+- **Machine learning:** Amazon SageMaker (training, deployment and pipelines)
 
 ---
 
-⭐ *“Data is the new oil, but AI is the engine that drives value from it.”*  
+## Certifications
 
+- IBM Data Science Professional Certificate (Coursera)
+- Microsoft AI Skills Certification
+- HCLTech Training Certification
+
+---
+
+## Experience
+
+**Graduate Engineer Trainee, HCLTech** (Oct 2025 – present, Chennai)
+Power BI reporting, requirements gathering for Power Platform solutions, and Power Automate workflows. Tools: Microsoft Fabric, Databricks, Power BI, Power Automate, Python, SQL.
+
+**Data Analyst Intern, Accenture** (Jun 2024 – Aug 2024)
+Data analysis and visualization, project scoping and requirement analysis.
+
+---
+
+## Contact
+
+Email: vishnudorigundla453@gmail.com
