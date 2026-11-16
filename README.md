@@ -12,7 +12,21 @@ Seeking data engineering roles focused on Azure, Microsoft Fabric and AWS.
 
 ## Featured projects
 
-### 1. Metadata-driven healthcare analytics lakehouse on Microsoft Fabric
+### 1. Incremental e-commerce lakehouse with demand forecasting on Azure and Databricks
+
+**ADF → ADLS landing → Bronze → Silver → Gold (Unity Catalog) → Reporting views + Prophet forecast → CI/CD**
+
+- Parameterised ADF pipelines (Get Metadata, If Condition, ForEach, Copy with wildcard) and a tumbling-window trigger land daily files in ADLS Gen2. One pipeline handles every table instead of a separate copy activity per source.
+- Bronze uses Auto Loader with SHA-256 file hashing, a file log, and schema-drift and audit tables, so re-delivered files are detected and every run is traceable.
+- Silver casts with try_cast and applies data-quality rules (quarantine, warn or fail). Bad rows go to quarantine tables with their raw JSON, loads are incremental on an ingest-timestamp watermark, and changing records are kept as SCD2 versions.
+- Gold is a star schema of three SCD2 dimensions (customer, product, seller) and four facts (orders, order items, payments, reviews). It has Unknown members, xxhash64 surrogate keys and DECIMAL money. It loads incrementally with Delta MERGE, driven by a changed-orders list and watermarks that advance only when every merge succeeds.
+- The Prophet daily sales forecast was chosen by a rolling-origin backtest against baselines. Intervals are calibrated from backtest ratio quantiles, and the model is registered in MLflow with a Unity Catalog champion alias. Forecasts are stored by day, week and month and exposed through reporting views.
+- A Databricks Asset Bundle defines the 4-task daily job for dev and prod. GitHub Actions runs lint, tests and bundle validation on pull requests. Merges to main deploy to dev, then to prod after a reviewer approves, using a service principal with OAuth M2M.
+- Repo: [ecom-lakehouse](https://github.com/vishnudorigundla/ecom-lakehouse).
+
+
+
+### 2. Metadata-driven healthcare analytics lakehouse on Microsoft Fabric
 **GitHub and Lakehouse files → Landing → Bronze → Silver → Gold → Semantic model → Power BI**
 - One set of Fabric pipelines and three parameterized PySpark notebooks load five healthcare sources (patients, doctors, hospitals, claims, pharmacy) in CSV, JSON and Parquet, instead of a separate copy activity per source.
 - Config tables in a Fabric SQL warehouse (`Metadata_Config`, `Watermark_Control`, `Pipeline_Run_Log`) drive what loads, from where, in which format and since when. Adding a source is one config row.
@@ -20,25 +34,25 @@ Seeking data engineering roles focused on Azure, Microsoft Fabric and AWS.
 - Gold is a star schema (`Gold_Dim_Patient`, `Gold_Dim_Doctor`, `Gold_Dim_Hospital`, `Gold_Fact_Claims`, `Gold_Fact_Pharmacy`) feeding a semantic model and a Power BI report.
 - Repo: [healthcare-files](https://github.com/vishnudorigundla/healthcare-files)
 
-### 2. Spotify medallion pipeline on Azure
+### 3. Spotify medallion pipeline on Azure
 **Azure SQL → Azure Data Factory → ADLS Gen2 → Databricks (PySpark, declarative pipelines)**
 - ADF pipelines load data incrementally using a change-date column and a lookup of the last load, and loop over a list of tables with a ForEach. A web activity is wired in for alerts.
 - Databricks builds silver dimensions in a notebook and gold tables (`DimDate`, `DimTrack`, `DimUser`, `FactStream`) as declarative pipeline tables with data-quality expectations.
 - The Databricks side is deployed as an Asset Bundle (`databricks.yml`).
 - Repo: [azureproject](https://github.com/vishnudorigundla/azureproject)
 
-### 3. Microsoft Fabric lakehouse for an LMS portal
+### 4. Microsoft Fabric lakehouse for an LMS portal
 **Raw → Landing → Bronze → Silver → Gold, orchestrated in a Fabric pipeline**
 - Four Fabric notebooks (raw to landing, landing to bronze, silver, gold) chained in one end-to-end pipeline with a dynamic run-date parameter.
 - The bronze, silver and gold notebooks use `MERGE` upserts so re-delivered records update instead of duplicating.
 - Power BI report on the gold layer (`LMS_report.pbix`).
 - Repo: [Fabric-end-to-end-project-for-LMS-portal](https://github.com/vishnudorigundla/Fabric-end-to-end-project-for-LMS-portal)
 
-### 4. Blinkit sales dashboard in Power BI
+### 5. Blinkit sales dashboard in Power BI
 - KPI cards (total sales, average sales, number of items, average rating) built with DAX, plus charts by item type, fat content, outlet size, outlet age and location.
 - Repo: [blinkit-power-bi-dashboard](https://github.com/vishnudorigundla/blinkit-power-bi-dashboard)
 
-### 5. GenAI apps (Streamlit)
+### 6. GenAI apps (Streamlit)
 - **AI Email Reply Assistant:** drafts replies in English or Telugu with Gemini. [repo](https://github.com/vishnudorigundla/-AI-Email-Reply-Assistant)
 - **YouTube Video Summarizer:** pulls a video transcript and summarizes it with Gemini. [repo](https://github.com/vishnudorigundla/Youtube-video-summary-Generator)
 - **AI Travel Planner:** itinerary drafts from Perplexity through LangChain, with Google Places links and WhatsApp delivery. [repo](https://github.com/vishnudorigundla/AI-Travel-Planner)
