@@ -1,4 +1,3 @@
-<img width="553" height="308" alt="image" src="https://github.com/user-attachments/assets/e0fba09f-33ae-4160-b1d8-70b0d6ec15cc" />
 
 # Hi, I'm Vishnu Dorigundla
 
