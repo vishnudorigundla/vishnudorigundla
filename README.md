@@ -1,12 +1,13 @@
+
+
+# Hi, I'm 
 <p align="center">
   <img src="banner.svg" alt="Vishnu Dorigundla: Data Science, Engineering, Analysis" width="100%">
 </p>
 
 
 
-# Hi, I'm Vishnu Dorigundla
-
-**Data Engineer | Azure · Microsoft Fabric · Databricks · AWS · Power BI | Applied GenAI and ML**
+### Data Engineer | Azure · Microsoft Fabric · Databricks · AWS · Power BI | Applied GenAI and ML**
 
 Data and analytics professional with hands-on experience designing cloud data pipelines on Azure and Microsoft Fabric, Databricks,building Power BI reporting solutions, and developing ML and GenAI applications.
 
