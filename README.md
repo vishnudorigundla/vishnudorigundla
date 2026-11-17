@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="banner.svg" alt="Vishnu Dorigundla: Data Science, Engineering, Analysis" width="100%">
+</p>
+
+
 
 # Hi, I'm Vishnu Dorigundla
 
